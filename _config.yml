@@ -138,7 +138,8 @@ Inglés - Nivel medio Español - Nivel alto
 sass:
   sass_dir: _sass
   style: compressed
-
+  
+theme: jekyll-theme-minimal
 plugins:
  - jekyll-seo-tag
 exclude : [
