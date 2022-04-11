@@ -6,13 +6,13 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Diego Moises Llano Moraga
+title: Ingeniero Estadístico
+email: diegolgo@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +56967095602
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: Your website (eg. https://Diegolgo.github.io/Resume
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -20,16 +20,16 @@ darkmode: false
 
 # Social links
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  Diegolgo
 stackoverflow_username: "00000001"
 dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
+facebook_username: Diego Moises Llano Moraga
+flickr_username: Diegolgo
+instagram_username: Diegolgo13
+linkedin_username: Diego Moises Llano Moraga
 xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
+pinterest_username: diegonewman
+youtube_username: Diegolgo
 orcid_username: 0000-0000-0000-0000
 googlescholar_username: D847cGsAAAAJ
 
