@@ -7,39 +7,35 @@ version: 2
 
 # Personal info
 name: Diego Moises Llano Moraga
-title: Ingeniero Estadístico
+title: Ingeniero Estadístico, Licenciado en Ciencias de la Ingeniería
 email: diegolgo@gmail.com
-# email_title: Email (Email title override)
-phone: +56967095602
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://Diegolgo.github.io/Resume
-# website_title: Web (Website title override)
+website: https://diegolgo.github.io/Resume/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
+twitter_username: Mr_Mala_Suerte
 github_username:  Diegolgo
-stackoverflow_username: "00000001"
+# stackoverflow_username: "00000001"
 dribbble_username: jekyll
-facebook_username: Diego Moises Llano Moraga
+facebook_username: diegollanomoraga
 flickr_username: Diegolgo
 instagram_username: Diegolgo13
-linkedin_username: Diego Moises Llano Moraga
-xing_username: jekyll
+# linkedin_username: Diego Moises Llano Moraga
+# xing_username: jekyll
 pinterest_username: diegonewman
 youtube_username: Diegolgo
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://www.itsgoingto.be
 # - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
@@ -49,17 +45,95 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_title: Sobre mí:
+about_profile_image: images/perfil-simple.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Profesional Estadístico, con amplia experiencia en áreas de análisis de datos, labores en areas técnicas y operativas, ademas en procesos y desarrollos de herramientas de analisis en distintos lenguajes. Alta capacidad de adaptabilidad y aprendizaje de software.
+  En lo que mejor soy: <mark>Desarrollo de herramientas </mark> y  <mark>Mejorar Procesos</mark>
+content:
+# Experiencia laboral
+- title: Instituto Nacional De Estadisticas Ine, Poder ejecutivo y administración pública 2013 - 2021
+   layout: Gobierno
+   content:
+       - layout: top-middle
+          title: Coordinador Encuesta Trimestral de la Construcción
+          link: 
+          # link_text: Project Website
+          additional_links:
+            - title:  sproogen/modern-resume-theme
+              icon: fab fa-github
+              url: github.com/sproogen/modern-resume-theme
+            # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #   icon: fab fa-github
+            #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+          quote: >
+            .
+          description: | # this will include new lines to allow paragraphs
+            Participe en la creación y producción trimestral de indice de ingresos de grandes empresas, publicado y actualmente utilizado. Anteriormente, fui analista económico del proyecto realizando Investigación del negocio, análisis de series de tiempo, desarrollo de herramientas de análisis (actualmente en uso) desarrollo de herramientas de gestión. creación de estratos homogéneos para limites de confianza, exposición de buenas prácticas de análisis al resto de la institución, cree herramientas de interconexion de datos sql para mejorar análisis de bases de datos, validación, levantamiento y diseño de procesos etc.
+    - title: Coordinador Area Técnica
+      layout: list # Type of content section (list/text)
+      content:
+        - layout: left
+          title: The Boring Company
+          link: boringcompany.com
+          # link_text: boringcompany.com
+          sub_title: Senior Network System Administrator
+          caption: November 2017 - Present
+          quote: >
+            Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          description: | # this will include new lines to allow paragraphs
+              Análisis y revisión de levantamiento bases de datos proyectos Innovación y Gasto en I+D. Se logran publicar índices nacionales de gasto en investigación y desarrollo en Chile, así como gasto en innovación, para ello se trabajo en Validación de encuestas, levantamiento y mejoras a los procesos de análisis, Coordinación Operativa, contratación de personal y capacitaciones, coordinación área técnica, desarrollo planes de trabajo y programación.
+    - title: Analista Económico
+      layout: list # Type of content section (list/text)
+      content:
+        - layout: left
+          title: Harvard University
+          caption: 2010 - 2013
+          sub_title: BSc Computer Science
+          quote: >
+            Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          description: | # this will include new lines to allow paragraphs
+            Levantamiento del proceso de inventarios: Participe en la primera publicación del índice de inventarios en Chile, tuve que definir y estandarizar procesos, (flujogramas, documentacion y estandart) análisis de datos, y estimaciones de limites para indices, series de tiempo, entre otros capacitando al resto de analistas y participando de todo el proceso.
+          
+  - title: Ingeniero Validación Tecnyca Chile, Consultoria / Asesoría 2012 - 2013 
+    layout: Matematico
+    content: | # this will include new lines to allow paragraphs
+      Apoyo en diseños experimentales en la manufactura farmaceutica. Evaluacion de procesos de analisis actuales. Elaboracion, validacion y ejecucion de protocolos para la calificacion de equipos de manufactura farmaceutica. Se trabaja en aplicacion de informe 40 de la FDA, e informes ICH de buenas practicas de manufactura de farmacos. Analisis de Riesgo, y Validaciones en terreno en diferentes laboratorios a lo largo de chile.
+  - title: Jefe de Procesos, Analista Estadistico Woodtech, Informática / Tecnología 2010 - 2011
+    layout: Analista
+    content: | # this will include new lines to allow paragraphs
+      Analista Estadístico en el área de Productos y desarrollo, para evaluar el proceso de modelación estadística, generar modificaciones y establecer políticas de desarrollo, para posteriormente pasar al área de Operaciones, donde asumí laborales de Jefe de Procesos, donde se efectúa soporte de los productos, entre las tareas se destacan; calibraciones, análisis de datos, mantención de modelos, automaticidad, muestreo. Visitas directas de supervisión personal y revisión en la ejecución de procesos de muestreo en terreno de diferentes plantas tanto en Chile como Brasil.
+  - title: Estadistico Viollier & Asociados Liquidadores de Seguros, Seguros / Previsión 2010 - 2010
+    layout: Analista
+    content: | # this will include new lines to allow paragraphs
+      Estadistico de carteras Hipotecarias, analista, liquidación de seguros. Estuve a cargo del equipo de carteras hipotecarias, siendo mi mayor responsabilidad la mantencion y analisis de base de datos de siniestros, informes a compañias y clientes, Informes Superintendencia, Supervision carteras regionales.
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+    Formación Académica
+      Ingeniería en Estadística, Mención Licenciado
+      Universidad de Playa Ancha de Ciencias de la Educación Egresado 2009
+      Participante Congreso Nacional de la estadistica, expositor año 2008 sobre Teoria de la Ruina (modelacion de la reserva).
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+- title: Software y niveles:
+    layout: Analista
+    content:
+      - Stata - Nivel medio manejo de BD, creacion de validaciones, calculos de indice, modelos etc.
+      - Office alto, tanto para aplicaciones de ofimatica, como para el desarrollo con excel de herramientas de analisis, macros,  interconexion de datos, Power Bi,etc.
+      - SPSS alto, analisis, test, pruebas de hipotesis, informes, modelos, etc.
+      - Statistics, alto, analisis, test, pruebas de hipotesis, informes etc.
+      - Minitab alto, analisis, test, pruebas de hipotesis, informes etc.
+      - R medio, manejo de BD, desarrollo de herramientas, creacion de informes, interconexion de datos, uso de librerias, calculos de indice, modelos etc.
+      - Sql medio, redaccion, ejecucion y uso de consultas, revision de consistencias, calculos, procedimientos.
+      - Python medio, uso de librerias, manejo de entornos, revision de BD, validaciones, calculos de indice etc.
+      - Access avanzado diseño y revision de bases de datos relacionales, calculos, informes, validaciones.
+      - Linux medio, uso de distintas distribuciones, paquetes, instalacion, configuracion, uso offimatica y software variado.
 
+Idiomas
+Inglés - Nivel medio Español - Nivel alto 
+
+# Build settings
+# remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
@@ -67,7 +141,6 @@ sass:
 
 plugins:
  - jekyll-seo-tag
-
 exclude : [
   "Gemfile",
   "Gemfile.lock",
