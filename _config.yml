@@ -19,10 +19,10 @@ twitter_username: Mr_Mala_Suerte
 github_username:  Diegolgo
 # stackoverflow_username: "00000001"
 dribbble_username: jekyll
-facebook_username: Diego Moises Llano Moraga
+facebook_username: diegollanomoraga
 flickr_username: Diegolgo
 instagram_username: Diegolgo13
-linkedin_username: Diego Moises Llano Moraga
+# linkedin_username: Diego Moises Llano Moraga
 # xing_username: jekyll
 pinterest_username: diegonewman
 youtube_username: Diegolgo
@@ -45,7 +45,7 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: Sobre mí:
 about_profile_image: images/perfil-simple.png
 about_content: | # this will include new lines to allow paragraphs
   Profesional Estadístico, con amplia experiencia en áreas de análisis de datos, labores en areas técnicas y operativas, ademas en procesos y desarrollos de herramientas de analisis en distintos lenguajes. Alta capacidad de adaptabilidad y aprendizaje de software.
@@ -53,10 +53,10 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
 # Experiencia laboral
-  - title: Instituto Nacional De Estadisticas Ine, Poder ejecutivo y administración pública 2013 - 2021
-    layout: Gobierno
-    content:
-        - layout: top-middle
+- title: Instituto Nacional De Estadisticas Ine, Poder ejecutivo y administración pública 2013 - 2021
+   layout: Gobierno
+   content:
+       - layout: top-middle
           title: Coordinador Encuesta Trimestral de la Construcción
           link: 
           # link_text: Project Website
