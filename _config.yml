@@ -45,7 +45,7 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: Sobre mí:
+about_title: Sobre mí
 about_profile_image: images/perfil-simple.png
 about_content: | # this will include new lines to allow paragraphs
   Profesional Estadístico, con amplia experiencia en áreas de análisis de datos, labores en areas técnicas y operativas, ademas en procesos y desarrollos de herramientas de analisis en distintos lenguajes. Alta capacidad de adaptabilidad y aprendizaje de software.
