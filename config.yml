@@ -1,8 +1,8 @@
-# Site
-# repository: https://github.com/Diegolgo/Resume
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+ Site
+ repository: https://github.com/Diegolgo/Prueba
+ favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
-# Content configuration version
+Content configuration version
 version: 2
 
 # Personal info
@@ -53,81 +53,67 @@ about_content: | # this will include new lines to allow paragraphs
 content:
 # Experiencia laboral
 - title: Instituto Nacional De Estadisticas Ine, Poder ejecutivo y administración pública 2013 - 2021
-   layout: Gobierno
+   layout: list
    content:
-       - layout: top-middle
-          title: Coordinador Encuesta Trimestral de la Construcción
-          link: 
-          # link_text: Project Website
-          additional_links:
-            - title:  sproogen/modern-resume-theme
-              icon: fab fa-github
-              url: github.com/sproogen/modern-resume-theme
-            # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            #   icon: fab fa-github
-            #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-          quote: >
-            .
-          description: | # this will include new lines to allow paragraphs
-            Participe en la creación y producción trimestral de indice de ingresos de grandes empresas, publicado y actualmente utilizado. Anteriormente, fui analista económico del proyecto realizando Investigación del negocio, análisis de series de tiempo, desarrollo de herramientas de análisis (actualmente en uso) desarrollo de herramientas de gestión. creación de estratos homogéneos para limites de confianza, exposición de buenas prácticas de análisis al resto de la institución, cree herramientas de interconexion de datos sql para mejorar análisis de bases de datos, validación, levantamiento y diseño de procesos etc.
-    - title: Coordinador Area Técnica
-      layout: list # Type of content section (list/text)
-      content:
-        - layout: left
-          title: The Boring Company
-          link: boringcompany.com
-          # link_text: boringcompany.com
-          sub_title: Senior Network System Administrator
-          caption: November 2017 - Present
-          quote: >
-            Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-          description: | # this will include new lines to allow paragraphs
-              Análisis y revisión de levantamiento bases de datos proyectos Innovación y Gasto en I+D. Se logran publicar índices nacionales de gasto en investigación y desarrollo en Chile, así como gasto en innovación, para ello se trabajo en Validación de encuestas, levantamiento y mejoras a los procesos de análisis, Coordinación Operativa, contratación de personal y capacitaciones, coordinación área técnica, desarrollo planes de trabajo y programación.
-    - title: Analista Económico
-      layout: list # Type of content section (list/text)
-      content:
-        - layout: left
-          title: Harvard University
-          caption: 2010 - 2013
-          sub_title: BSc Computer Science
-          quote: >
-            Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-          description: | # this will include new lines to allow paragraphs
-            Levantamiento del proceso de inventarios: Participe en la primera publicación del índice de inventarios en Chile, tuve que definir y estandarizar procesos, (flujogramas, documentacion y estandart) análisis de datos, y estimaciones de limites para indices, series de tiempo, entre otros capacitando al resto de analistas y participando de todo el proceso.
+   - layout: list
+   title: Coordinador Encuesta Trimestral de la Construcción
+link: 
+# link_text: Project Website
+additional_links:
+- title:  sproogen/modern-resume-theme
+icon: fab fa-github
+url: github.com/sproogen/modern-resume-theme
+ # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#   icon: fab fa-github
+#   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+quote: >
+.
+description: | # this will include new lines to allow paragraphs
+Participe en la creación y producción trimestral de indice de ingresos de grandes empresas, publicado y actualmente utilizado. Anteriormente, fui analista económico del proyecto realizando Investigación del negocio, análisis de series de tiempo, desarrollo de herramientas de análisis (actualmente en uso) desarrollo de herramientas de gestión. creación de estratos homogéneos para limites de confianza, exposición de buenas prácticas de análisis al resto de la institución, cree herramientas de interconexion de datos sql para mejorar análisis de bases de datos, validación, levantamiento y diseño de procesos etc.
+- title: Coordinador Area Técnica
+layout: list # Type of content section (list/text)
+content:
+- layout: list
+- title: Analista Económico
+layout: list # Type of content section (list/text)
+content:
+- layout: left
+description: | # this will include new lines to allow paragraphs
+Levantamiento del proceso de inventarios: Participe en la primera publicación del índice de inventarios en Chile, tuve que definir y estandarizar procesos, (flujogramas, documentacion y estandart) análisis de datos, y estimaciones de limites para indices, series de tiempo, entre otros capacitando al resto de analistas y participando de todo el proceso.
           
-  - title: Ingeniero Validación Tecnyca Chile, Consultoria / Asesoría 2012 - 2013 
-    layout: Matematico
-    content: | # this will include new lines to allow paragraphs
-      Apoyo en diseños experimentales en la manufactura farmaceutica. Evaluacion de procesos de analisis actuales. Elaboracion, validacion y ejecucion de protocolos para la calificacion de equipos de manufactura farmaceutica. Se trabaja en aplicacion de informe 40 de la FDA, e informes ICH de buenas practicas de manufactura de farmacos. Analisis de Riesgo, y Validaciones en terreno en diferentes laboratorios a lo largo de chile.
-  - title: Jefe de Procesos, Analista Estadistico Woodtech, Informática / Tecnología 2010 - 2011
-    layout: Analista
-    content: | # this will include new lines to allow paragraphs
-      Analista Estadístico en el área de Productos y desarrollo, para evaluar el proceso de modelación estadística, generar modificaciones y establecer políticas de desarrollo, para posteriormente pasar al área de Operaciones, donde asumí laborales de Jefe de Procesos, donde se efectúa soporte de los productos, entre las tareas se destacan; calibraciones, análisis de datos, mantención de modelos, automaticidad, muestreo. Visitas directas de supervisión personal y revisión en la ejecución de procesos de muestreo en terreno de diferentes plantas tanto en Chile como Brasil.
-  - title: Estadistico Viollier & Asociados Liquidadores de Seguros, Seguros / Previsión 2010 - 2010
-    layout: Analista
-    content: | # this will include new lines to allow paragraphs
-      Estadistico de carteras Hipotecarias, analista, liquidación de seguros. Estuve a cargo del equipo de carteras hipotecarias, siendo mi mayor responsabilidad la mantencion y analisis de base de datos de siniestros, informes a compañias y clientes, Informes Superintendencia, Supervision carteras regionales.
+- title: Ingeniero Validación Tecnyca Chile, Consultoria / Asesoría 2012 - 2013 
+layout: list
+content: | # this will include new lines to allow paragraphs
+Apoyo en diseños experimentales en la manufactura farmaceutica. Evaluacion de procesos de analisis actuales. Elaboracion, validacion y ejecucion de protocolos para la calificacion de equipos de manufactura farmaceutica. Se trabaja en aplicacion de informe 40 de la FDA, e informes ICH de buenas practicas de manufactura de farmacos. Analisis de Riesgo, y Validaciones en terreno en diferentes laboratorios a lo largo de chile.
+- title: Jefe de Procesos, Analista Estadistico Woodtech, Informática / Tecnología 2010 - 2011
+layout: list
+content: | # this will include new lines to allow paragraphs
+Analista Estadístico en el área de Productos y desarrollo, para evaluar el proceso de modelación estadística, generar modificaciones y establecer políticas de desarrollo, para posteriormente pasar al área de Operaciones, donde asumí laborales de Jefe de Procesos, donde se efectúa soporte de los productos, entre las tareas se destacan; calibraciones, análisis de datos, mantención de modelos, automaticidad, muestreo. Visitas directas de supervisión personal y revisión en la ejecución de procesos de muestreo en terreno de diferentes plantas tanto en Chile como Brasil.
+- title: Estadistico Viollier & Asociados Liquidadores de Seguros, Seguros / Previsión 2010 - 2010
+layout: list
+content: | # this will include new lines to allow paragraphs
+Estadistico de carteras Hipotecarias, analista, liquidación de seguros. Estuve a cargo del equipo de carteras hipotecarias, siendo mi mayor responsabilidad la mantencion y analisis de base de datos de siniestros, informes a compañias y clientes, Informes Superintendencia, Supervision carteras regionales.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
-    Formación Académica
-      Ingeniería en Estadística, Mención Licenciado
-      Universidad de Playa Ancha de Ciencias de la Educación Egresado 2009
-      Participante Congreso Nacional de la estadistica, expositor año 2008 sobre Teoria de la Ruina (modelacion de la reserva).
+Formación Académica
+Ingeniería en Estadística, Mención Licenciado
+Universidad de Playa Ancha de Ciencias de la Educación Egresado 2009
+Participante Congreso Nacional de la estadistica, expositor año 2008 sobre Teoria de la Ruina (modelacion de la reserva).
 
 - title: Software y niveles:
-    layout: Analista
-    content:
-      - Stata - Nivel medio manejo de BD, creacion de validaciones, calculos de indice, modelos etc.
-      - Office alto, tanto para aplicaciones de ofimatica, como para el desarrollo con excel de herramientas de analisis, macros,  interconexion de datos, Power Bi,etc.
-      - SPSS alto, analisis, test, pruebas de hipotesis, informes, modelos, etc.
-      - Statistics, alto, analisis, test, pruebas de hipotesis, informes etc.
-      - Minitab alto, analisis, test, pruebas de hipotesis, informes etc.
-      - R medio, manejo de BD, desarrollo de herramientas, creacion de informes, interconexion de datos, uso de librerias, calculos de indice, modelos etc.
-      - Sql medio, redaccion, ejecucion y uso de consultas, revision de consistencias, calculos, procedimientos.
-      - Python medio, uso de librerias, manejo de entornos, revision de BD, validaciones, calculos de indice etc.
-      - Access avanzado diseño y revision de bases de datos relacionales, calculos, informes, validaciones.
-      - Linux medio, uso de distintas distribuciones, paquetes, instalacion, configuracion, uso offimatica y software variado.
+layout: list
+content:
+- Stata - Nivel medio manejo de BD, creacion de validaciones, calculos de indice, modelos etc.
+- Office alto, tanto para aplicaciones de ofimatica, como para el desarrollo con excel de herramientas de analisis, macros,  interconexion de datos, Power Bi,etc.
+- SPSS alto, analisis, test, pruebas de hipotesis, informes, modelos, etc.
+- Statistics, alto, analisis, test, pruebas de hipotesis, informes etc.
+- Minitab alto, analisis, test, pruebas de hipotesis, informes etc.
+- R medio, manejo de BD, desarrollo de herramientas, creacion de informes, interconexion de datos, uso de librerias, calculos de indice, modelos etc.
+- Sql medio, redaccion, ejecucion y uso de consultas, revision de consistencias, calculos, procedimientos.
+- Python medio, uso de librerias, manejo de entornos, revision de BD, validaciones, calculos de indice etc.
+- Access avanzado diseño y revision de bases de datos relacionales, calculos, informes, validaciones.
+- Linux medio, uso de distintas distribuciones, paquetes, instalacion, configuracion, uso offimatica y software variado.
 
 Idiomas
 Inglés - Nivel medio Español - Nivel alto 
